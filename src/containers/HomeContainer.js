@@ -1,7 +1,9 @@
 import React from 'react';
+import Navbar from '../components/nav_bar/NavBar';
+import '../stylesheet/home.css';
 
 const HomeContainer = () => (
-  <div>Hello</div>
+  <Navbar />
 );
 
 export default HomeContainer;

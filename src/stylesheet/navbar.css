@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.toolbar {
+  min-height: auto !important;
+}
+
+.underNav {
+  background: #0e1117;
+  height: 2vh;
+}
+
+.menuList {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  width: 100px;
+}
+
+.toolbar .menuList {
+  cursor: pointer;
+}
+
+.toolbar .menuList a {
+  text-decoration: none;
+  color: #89919a;
+}
+
+.toolbar .menuList:hover {
+  background: #0e1117;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid white;
+}
+
+.toolbar .menuList:active {
+  background: #0e1117;
+  margin: 0;
+  padding: 0;
+}
