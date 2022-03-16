@@ -1,14 +1,18 @@
 .footer {
   position: absolute;
   bottom: 0;
+  border-top: 1px solid #89919a;
+  width: 100%;
 }
 
 .footerList {
   display: flex;
-  color: white;
+  color: #89919a;
 }
 
 .footerList li {
   list-style-type: none;
-  padding: 5px;
+  border-right: 1px solid #89919a;
+  text-align: center;
+  padding: 5px 10px;
 }
