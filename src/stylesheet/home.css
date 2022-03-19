@@ -18,3 +18,32 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
+
+.content .position {
+  color: #8fc2fc;
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+.content .input {
+  background: none;
+  border: none;
+  margin-top: 10px;
+  height: 30px;
+  color: #665b72;
+  font-weight: 600;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.content .input::placeholder {
+  color: #665b72;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.content .input:focus-visible {
+  border: none;
+  outline: none;
+}
