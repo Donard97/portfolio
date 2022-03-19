@@ -13,12 +13,12 @@ const HomeContainer = () => (
       <Box className="content">
         <Box>
           <Typography variant="p">Hello! I am</Typography>
-          <Typography variant="h1" sx={{ fontSize: '60px' }}>Donard Golaj</Typography>
-          <Typography variant="h2" sx={{ fontSize: '40px' }}>Junior full-stack developer</Typography>
+          <Typography variant="h1" sx={{ fontSize: '65px', paddingTop: '5px' }}>Donard Golaj</Typography>
+          <Typography variant="h2" className="position">Junior full-stack developer</Typography>
         </Box>
         <Box>
           <Typography variant="p" component="div">write the code below and press enter to continue:</Typography>
-          <Typography variant="p" component="div">whois</Typography>
+          <input type="text" placeholder="whois" className="input" />
         </Box>
       </Box>
     </Container>
