@@ -1,0 +1,21 @@
+.explorer {
+  background-color: #020409;
+  color: #89919a;
+  width: 20%;
+  position: absolute;
+  right: 0;
+  height: 95%;
+  z-index: 99;
+  margin-top: -58px;
+  border-left: 1px solid #89919a;
+}
+
+.explorer h4 {
+  padding: 5px;
+}
+
+.skillTitle {
+  line-height: 2;
+  letter-spacing: 1px;
+  padding: 0 15px;
+}
