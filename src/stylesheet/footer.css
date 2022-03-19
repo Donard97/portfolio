@@ -16,3 +16,7 @@
   text-align: center;
   padding: 5px 10px;
 }
+
+.footerList li a {
+  color: #89919a;
+}

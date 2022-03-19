@@ -1,6 +1,7 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -14,13 +15,19 @@ function Footer() {
           <Typography variant="p" component="div">find me by:</Typography>
         </li>
         <li>
-          <LinkedInIcon />
+          <Link href="https://www.linkedin.com/in/donardgolaj/">
+            <LinkedInIcon />
+          </Link>
         </li>
         <li>
-          <GitHubIcon />
+          <Link href="https://github.com/Donard97">
+            <GitHubIcon />
+          </Link>
         </li>
         <li>
-          <TwitterIcon />
+          <Link href="https://twitter.com/donardgolaj">
+            <TwitterIcon />
+          </Link>
         </li>
       </ul>
     </Box>
