@@ -1,0 +1,21 @@
+.aboutContainer {
+  color: #89919a;
+  display: flex !important;
+  align-items: center;
+  height: 83vh;
+}
+
+.numberList {
+  border-right: 1px solid #89919a;
+  width: 3%;
+}
+
+.aboutParagraph {
+  width: 50%;
+  border-left: 1px solid white;
+  margin: auto 25px;
+}
+
+.aboutParagraph p {
+  padding-left: 20px;
+}
