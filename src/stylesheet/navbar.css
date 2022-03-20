@@ -4,7 +4,7 @@
 }
 
 .toolbar {
-  min-height: auto !important;
+  height: 55px;
 }
 
 .underNav {
@@ -28,6 +28,7 @@
 .toolbar .menuList a {
   text-decoration: none;
   color: #89919a;
+  font-size: 18px;
 }
 
 .toolbar .menuList:hover {
@@ -35,10 +36,12 @@
   margin: 0;
   padding: 0;
   border-top: 1px solid white;
+  height: 100%;
 }
 
 .toolbar .menuList:active {
   background: #0e1117;
   margin: 0;
   padding: 0;
+  height: 100%;
 }

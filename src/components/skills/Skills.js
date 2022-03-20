@@ -7,10 +7,12 @@ import '../../stylesheet/skills.css';
 function Skills() {
   return (
     <Box className="explorer">
-      <div>
-        <Typography variant="p" className="skillTitle">Explorer</Typography>
+      <div className="title">
+        <Typography variant="p">Explorer</Typography>
       </div>
-      <CustomizedAccordions />
+      <div className="accordion">
+        <CustomizedAccordions />
+      </div>
     </Box>
   );
 }

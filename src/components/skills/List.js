@@ -6,6 +6,8 @@ import MuiAccordion from '@mui/material/Accordion';
 import MuiAccordionSummary from '@mui/material/AccordionSummary';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
+import FolderIcon from '@mui/icons-material/Folder';
+import CssIcon from '@mui/icons-material/Css';
 import '../../stylesheet/accordionSkills.css';
 
 const Accordion = styled((props) => (
@@ -31,6 +33,7 @@ const AccordionSummary = styled((props) => (
   />
 ))(({ theme }) => ({
   flexDirection: 'row-reverse',
+  marginTop: `-15px`,
   '& .MuiAccordionSummary-expandIconWrapper.Mui-expanded': {
     transform: 'rotate(90deg)',
   },
@@ -40,7 +43,6 @@ const AccordionSummary = styled((props) => (
 }));
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
-  padding: theme.spacing(2),
   textDecoration: `none`,
   paddingLeft: `50px`,
 }));
@@ -56,7 +58,8 @@ export default function CustomizedAccordions() {
     <div className="list">
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography variant="p">HTML/CSS</Typography>
+          <FolderIcon sx={{color: `#e36363`}}/>
+          <Typography variant="p" sx={{padding: `4px`}}>HTML/CSS</Typography>
         </AccordionSummary>
         <AccordionDetails className="accordion">
           <ul>
@@ -66,12 +69,14 @@ export default function CustomizedAccordions() {
       </Accordion>
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography variant="p">JavaScript</Typography>
+          <FolderIcon sx={{color: `#d0c64d`}}/>
+          <Typography variant="p" sx={{padding: `4px`}}>JavaScript</Typography>
         </AccordionSummary>
       </Accordion>
       <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography variant="p">React</Typography>
+          <FolderIcon sx={{color: `#5cc227`}}/>
+          <Typography variant="p" sx={{padding: `4px`}}>React</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <ul>
@@ -83,17 +88,20 @@ export default function CustomizedAccordions() {
       </Accordion>
       <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
         <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
-          <Typography variant="p">Ruby</Typography>
+          <FolderIcon sx={{color: `#39cb9f`}}/>
+          <Typography variant="p" sx={{padding: `4px`}}>Ruby</Typography>
         </AccordionSummary>
       </Accordion>
       <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
         <AccordionSummary aria-controls="panel5d-content" id="panel5d-header">
-          <Typography variant="p">Ruby on Rails</Typography>
+          <FolderIcon sx={{color: `#2ea1c7`}}/>
+          <Typography variant="p" sx={{padding: `4px`}}>Ruby on Rails</Typography>
         </AccordionSummary>
       </Accordion>
       <Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
         <AccordionSummary aria-controls="panel6d-content" id="panel5d-header">
-          <Typography variant="p">PostgreSQL</Typography>
+          <FolderIcon sx={{color: `#146bd2`}}/>
+          <Typography variant="p" sx={{padding: `4px`}}>PostgreSQL</Typography>
         </AccordionSummary>
       </Accordion>
     </div>
