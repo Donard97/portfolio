@@ -7,10 +7,7 @@ import About from '../components/about/About';
 function AboutContainer() {
   return (
     <>
-      <Navbar />
-      <Skills />
-      <About />
-      <Footer />
+    
     </>
   );
 }
