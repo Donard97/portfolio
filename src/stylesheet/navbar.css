@@ -36,7 +36,7 @@
   background: #0e1117;
   margin: 0;
   padding: 0;
-  border-top: 1px solid white;
+  border-top: 8px solid #856f3a;
   height: 100%;
 }
 
@@ -45,4 +45,5 @@
   margin: 0;
   padding: 0;
   height: 100%;
+  color: #856f3a;
 }

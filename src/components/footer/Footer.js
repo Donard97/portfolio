@@ -30,6 +30,7 @@ function Footer() {
           </Link>
         </li>
       </ul>
+      <Typography variant="p" className="footerParagraph">Donard Golaj</Typography>
     </Box>
   );
 }
