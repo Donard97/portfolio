@@ -51,7 +51,7 @@ const useStyles = makeStyles({
     margin: '0 15px 10px 15px',
     borderRadius: '10px',
     '&:hover': {
-      backgroundColor: '#89919a',
+      backgroundColor: '#557faf',
       color: '#0b0d12',
     },
   },

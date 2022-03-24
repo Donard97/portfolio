@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomeContainer from './containers/HomeContainer';
 import AboutContainer from './containers/AboutContainer';
 import ProjectsContainer from './containers/ProjectsContainer';
-// import ContactContainer from './containers/ContactContainer';
+import ContactContainer from './containers/ContactContainer';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
           <Route exact path="/" element={<HomeContainer />} />
           <Route exact path="/about" element={<AboutContainer />} />
           <Route exact path="/projects" element={<ProjectsContainer />} />
-          {/* <Route exact path="/contact" element={<ContactContainer />} /> */}
+          <Route exact path="/contact" element={<ContactContainer />} />
         </Routes>
       </BrowserRouter>
     </div>

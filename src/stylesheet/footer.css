@@ -2,6 +2,8 @@
   border-top: 1px solid #89919a;
   width: 100%;
   display: inline-flex;
+  position: absolute;
+  bottom: 0;
 }
 
 .footerList {
